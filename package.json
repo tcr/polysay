@@ -1,0 +1,15 @@
+{
+  "name": "polysay",
+  "version": "0.0.1",
+  "description": "Speak and translate in different languages from the command line!",
+  "dependencies": {
+    "optimist": "~0.3.5",
+    "polyglotbot": "0.0.3"
+  },
+  "bin": {
+    "polysay": "./polysay.js"
+  },
+  "repository": "http://github.com/tcr/polyglotbot",
+  "author": "Tim Cameron Ryan",
+  "license": "MIT"
+}
