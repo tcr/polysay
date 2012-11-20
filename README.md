@@ -3,7 +3,7 @@
 Speak and translate in different languages from the command line!
 
 1. `brew install mpg123` or your OS equivalent
-1. `npm install -g polyglotbot`.
+1. `npm install -g polyglotbot`
 
 ## Usage
 
