@@ -8,7 +8,7 @@ function speak (text) {
     process.exit();
   }
 
-  polyglotbot.pronounce(argv.from || 'en', text, function (err, stream) {
+  polyglotbot.pronounce(argv.to || argv.from || 'en', text, function (err, stream) {
     var mpg123 = require('child_process').spawn('mpg123', ['-'], {
       stdio: ['pipe', null, null]
     });

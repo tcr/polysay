@@ -1,6 +1,6 @@
 {
   "name": "polysay",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Speak and translate in different languages from the command line!",
   "dependencies": {
     "optimist": "~0.3.5",
